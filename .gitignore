@@ -2,4 +2,22 @@
 *.pot
 *.pyc
 local_settings.py
+
+## ignore related non-public content
 mixes_stuff/*
+
+## Ignore Eclipse stuff
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
