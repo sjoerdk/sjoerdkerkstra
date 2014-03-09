@@ -1,0 +1,30 @@
+/**********************
+ *      Main site     *
+ **********************/
+
+@font-face{
+		font-family: sanslike;
+		src: url("/static/mixes_site/css/futura.ttf") format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+body{font-family: sanslike;
+	 background-color:black;
+	 color:white;
+	 background: url("/static/mixes_site/images/background1.jpg") no-repeat fixed center center #303537;
+	 background-size:100%
+	 }
+
+#mixes {width:200px; font-size:30px;
+		position:fixed; top:20px;}
+#contact {position:fixed; top:55px;}
+
+#leftcolumn {width:200px; position:absolute;}
+#rightcolumn {margin-left:200px; padding-left:60px;}
+#mixcloudwidgetcontainer {margin-top:20px; margin-bottom:54px;}
+#maincontent{}
+
+#mixcomment{width:648px;color: #D1D1D1; margin-top: -5px;}
+
+#linefader{width:20px;height:205px; position:absolute; left:200px; background-color:black;}

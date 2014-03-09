@@ -1,0 +1,17 @@
+/**********************
+ *      Main site     *
+ **********************/
+
+@font-face{
+		font-family: sanslike;
+		src: url("/sjoerdkerkstra_site/static/css/futura.ttf") format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+body{font-family: sanslike;
+	 background-color:black;
+	 color:white;
+	 /*background: url("/static/mixes_site/images/background1.jpg") no-repeat fixed center center #303537;*/
+	 background-size:100%
+	 }
