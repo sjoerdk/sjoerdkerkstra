@@ -32,3 +32,6 @@ sjoerdkerkstra/sjoerdkerkstra/static/
 sjoerdkerkstra/sjoerdkerkstra/settings/*.conf
 !sjoerdkerkstra/sjoerdkerkstra/settings/00_default.conf
 
+## Ignore local sqlite3 db files
+*.db
+
