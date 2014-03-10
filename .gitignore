@@ -3,7 +3,7 @@
 *.pyc
 local_settings.py
 
-## ignore related non-public content
+## Ignore related non-public content
 mixes_stuff/*
 
 ## Ignore Eclipse stuff
@@ -21,3 +21,10 @@ local.properties
 .classpath
 .settings/
 .loadpath
+
+## Ignore deployment specific files
+sjoerdkerkstra/RUN
+sjoerdkerkstra/sjoerdkerkstra.pid
+sjoerdkerkstra/sjoerdkerkstra/settings_deployment.py
+sjoerdkerkstra/sjoerdkerkstra/static/
+
