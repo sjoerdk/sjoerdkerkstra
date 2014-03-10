@@ -28,3 +28,7 @@ sjoerdkerkstra/sjoerdkerkstra.pid
 sjoerdkerkstra/sjoerdkerkstra/settings_deployment.py
 sjoerdkerkstra/sjoerdkerkstra/static/
 
+## Ignore local settings files
+sjoerdkerkstra/sjoerdkerkstra/settings/*.conf
+!sjoerdkerkstra/sjoerdkerkstra/settings/00_default.conf
+
