@@ -11,6 +11,10 @@ class Mixclouditem(models.Model):
     description = models.TextField(max_length = 1024, default="",
                                    blank=True,help_text = "Print this below widget")
     
+    
+    def __unicode__(self):
+        """ string representation for this object"""
+        return self.mix_name
 
 
 admin.site.register(Mixclouditem)

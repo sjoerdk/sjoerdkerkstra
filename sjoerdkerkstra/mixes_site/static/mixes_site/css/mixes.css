@@ -19,9 +19,15 @@ body{font-family: sanslike;
 #mixes {width:200px; font-size:30px;
 		position:fixed; top:20px;}
 #contact {position:fixed; top:55px;}
+#bookmarks {position:fixed; top:92px;}
+#bookmarks li{list-style-type: none; margin-left:-39px;}
+#bookmarks a{text-decoration:none; color:#FFFFFF;}
+
+.jump{position:absolute; margin-top:-65px;}
+
 
 #leftcolumn {width:200px; position:absolute;}
-#rightcolumn {margin-left:200px; padding-left:60px;}
+#rightcolumn {margin-top:70px; margin-bottom:400px; margin-left:200px; padding-left:60px;}
 #mixcloudwidgetcontainer {margin-top:20px; margin-bottom:54px;}
 #maincontent{}
 
