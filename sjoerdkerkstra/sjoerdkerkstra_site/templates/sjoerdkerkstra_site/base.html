@@ -11,44 +11,53 @@
 
 		<script> </script>
         <style>
-        .header{text-align:center; margin-top: 36px;}
+        .header{color:#BBBBBB; text-align:center; margin-top: 36px;font-size: x-large; margin-top: 18px;}
 		.centered {width: 507px;
         		   margin-left: auto;
         		   margin-right: auto;
         		   }
         .image {float:left; margin:19px;}
-		.footer {bottom:10px; z-index:-1; color:#BBBBBB; float:right;}
+		.footer {bottom:10px; z-index:-1; color:#BBBBBB;  position: fixed; right: 10px;}
 		a.image{height:130px;width:130px; background-color:#D1D1D1;}
         	
         </style>
 	</head>
 	<body>
-		<div class ="header centered"><img src="images/lunavanloon.png"/></div>
+		<div class ="header centered">Sjoerd Kerkstra</div>
 		<div class ="imagescontainer centered">
-			<a class="image" target="new" href="https://www.facebook.com/luna.vanloon">
-				<img title="facebook" alt="facebook" src="images/facebook.png"/>
+			<a class="image" target="new" href="https://github.com/sjoerdk">
+				<img title="My code on Github" alt="Github" src="{% get_static_prefix %}sjoerdkerkstra_site/images/github.png"/>
 			</a>
-			<a class="image" target="new" href="https://www.facebook.com/pages/Mrs-Eaves/106100559420436">
-				<img title="Mrs. Eaves" alt="Mrs. Eaves" src="images/mrs_eaves.png"/>
+			<a class="image" target="new" href="http://82.95.83.241/names/">
+				<img title="8 letter company name generator" alt="8 letter company name generator" src="images/mrs_eaves.png"/>
 			</a>
-			<a class="image" target="new" href="http://www.linkedin.com/in/lunavanloon">
-				<img title="Linkedin" alt="Linkedin" src="images/linkedin.png"/>
+			<a class="image" target="_self" href="{% url 'mixes_site.views.mainpage' %}">
+				<img title="Mixes" alt="Mixes" src="{% get_static_prefix %}sjoerdkerkstra_site/images/mixes.png"/>
 			</a>
-			<a class="image" target="new" href="http://www.mediamatic.net/60505/nl/luna-van-loon">
-				<img title="Mediamatic" alt="Mediamatic" src="images/mediamatic.png"/>
+			
+			
+			<a class="image" target="new" href="http://grand-challenge.org/All_Challenges/">
+				<img title="Grand challenges in Medical image analysis" 
+					alt="Grand challenges in Medical image analysis" 
+					src="{% get_static_prefix %}sjoerdkerkstra_site/images/grand-challenges.png"/>
 			</a>
-			<a class="image" target="new" href="http://hardhoofd.com/2011/02/03/stop-the-verdana-madness/">
-				<img title="Stop the verdana madness" alt="Stop the verdana madness op hardhoofd" src="images/ikea_verdana.png"/>
-			</a>
-			<a class="image" target="new" href="http://mistermotley.nl/Archief/Nummers/24/Txt/do-hit-luna-van-loon/">
-				<img title="Do Hit" alt="Do Hit in Mr. Motly " src="images/dohit.png"/>
-			</a>
-			<a class="image" target="new" href="http://hardhoofd.com/2011/11/03/michael-jackson-is-geschiedenis/">
-				<img title="Michael Jackson" alt="Michael Jackson op hardhoofd" src="images/michael_jackson.png"/>
+						
+			<a class="image" target="new" href="http://sjoerdk1.home.xs4all.nl/tekeningen/">
+				<img title="Image Gallery I made in D3" alt="Image Gallery I made in D3" src="{% get_static_prefix %}sjoerdkerkstra_site/images/petal.png"/>
 			</a>
 			<a class="image" target="new" href="http://books.google.nl/books?vid=ISBN9789063692575">
 				<img title="I don't know where I am going but I want to be there" alt="I don't know where I am going but I want to be there" src="images/there.png"/>
 			</a>
+			
+			<a class="image" target="new" href="http://hardhoofd.com/2011/11/03/michael-jackson-is-geschiedenis/">
+				<img title="Michael Jackson" alt="Michael Jackson op hardhoofd" src="images/michael_jackson.png"/>
+			</a>
+			<a class="image" target="new" href="https://www.linkedin.com/pub/sjoerd-kerkstra/10/63/866">
+				<img title="LinkedIn" 
+					alt="LinkedIn" 
+					src="{% get_static_prefix %}sjoerdkerkstra_site/images/linkedin.png"/>
+			</a>
+			
 			<a class="image" href="mailto:lunavanloon@gmail.com">
 				<img title="Contact" alt="Contact" src="images/envelop.png"/>
 			</a>
